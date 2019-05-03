@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ConceptsModelStoreContainer" CdmEntityContainer="Mapping_SchemaEntities">
+    <EntitySetMapping Name="Concepts_">
+      <EntityTypeMapping TypeName="MyModel.Concepts_">
+        <MappingFragment StoreEntitySet="Concepts_">
+          <ScalarProperty Name="Concept_Id" ColumnName="Concept_Id" />
+          <ScalarProperty Name="Vocabulary_Id" ColumnName="Vocabulary_Id" />
+          <ScalarProperty Name="Concept_Name" ColumnName="Concept_Name" />
+          <ScalarProperty Name="SynSet" ColumnName="SynSet" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="SubConceptOf_Id" ColumnName="SubConceptOf_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="MyModel.Concepts_">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConceptsModel.Store.spConcepts_Insert">
+            <ScalarProperty Name="SubConceptOf_Id" ParameterName="SubConceptOf_Id" />
+            <ScalarProperty Name="Comment" ParameterName="Comment" />
+            <ScalarProperty Name="SynSet" ParameterName="SynSet" />
+            <ScalarProperty Name="Concept_Name" ParameterName="Concept_Name" />
+            <ScalarProperty Name="Vocabulary_Id" ParameterName="Vocabulary_Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConceptsModel.Store.spConcepts_Update">
+            <ScalarProperty Name="SubConceptOf_Id" ParameterName="SubConceptOf_Id" Version="Current" />
+            <ScalarProperty Name="Comment" ParameterName="Comment" Version="Current" />
+            <ScalarProperty Name="SynSet" ParameterName="SynSet" Version="Current" />
+            <ScalarProperty Name="Concept_Name" ParameterName="Concept_Name" Version="Current" />
+            <ScalarProperty Name="Vocabulary_Id" ParameterName="Vocabulary_Id" Version="Current" />
+            <ScalarProperty Name="Concept_Id" ParameterName="Concept_Id" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="ConceptsModel.Store.spConcepts_Delete">
+            <ScalarProperty Name="Concept_Id" ParameterName="Concept_Id" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vocabularys">
+      <EntityTypeMapping TypeName="MyModel.Vocabulary">
+        <MappingFragment StoreEntitySet="Vocabularys">
+          <ScalarProperty Name="Vocabulary_Id" ColumnName="Vocabulary_Id" />
+          <ScalarProperty Name="Vocabulary_URI" ColumnName="Vocabulary_URI" />
+          <ScalarProperty Name="Vocabulary_Name" ColumnName="Vocabulary_Name" />
+          <ScalarProperty Name="Home_Page" ColumnName="Home_Page" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="RDF_link" ColumnName="RDF_link" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spConcepts_Delete" FunctionName="ConceptsModel.Store.spConcepts_Delete" />
+    <FunctionImportMapping FunctionImportName="spConcepts_Insert" FunctionName="ConceptsModel.Store.spConcepts_Insert" />
+    <FunctionImportMapping FunctionImportName="spConcepts_Update" FunctionName="ConceptsModel.Store.spConcepts_Update" />
+    <EntitySetMapping Name="Attributes_">
+      <EntityTypeMapping TypeName="MyModel.Attributes_">
+        <MappingFragment StoreEntitySet="Attributes_">
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="SynSet" ColumnName="SynSet" />
+          <ScalarProperty Name="Attribute_Name" ColumnName="Attribute_Name" />
+          <ScalarProperty Name="Range" ColumnName="Range" />
+          <ScalarProperty Name="Domain_Id" ColumnName="Domain_Id" />
+          <ScalarProperty Name="Attribut_Id" ColumnName="Attribut_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="MyModel.Attributes_">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConceptsModel.Store.spAttributs_Insert">
+            <ScalarProperty Name="Comment" ParameterName="Comment" />
+            <ScalarProperty Name="SynSet" ParameterName="SynSet" />
+            <ScalarProperty Name="Attribute_Name" ParameterName="Attribute_Name" />
+            <ScalarProperty Name="Range" ParameterName="Range" />
+            <ScalarProperty Name="Domain_Id" ParameterName="Domain_Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConceptsModel.Store.spAttributs_Update">
+            <ScalarProperty Name="Comment" ParameterName="Comment" Version="Current" />
+            <ScalarProperty Name="SynSet" ParameterName="SynSet" Version="Current" />
+            <ScalarProperty Name="Attribute_Name" ParameterName="Attribute_Name" Version="Current" />
+            <ScalarProperty Name="Range" ParameterName="Range" Version="Current" />
+            <ScalarProperty Name="Domain_Id" ParameterName="Domain_Id" Version="Current" />
+            <ScalarProperty Name="Attribut_Id" ParameterName="Attribut_Id" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="ConceptsModel.Store.spAttributs_Delete">
+            <ScalarProperty Name="Attribut_Id" ParameterName="Attribut_Id" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Relations_">
+      <EntityTypeMapping TypeName="MyModel.Relations_">
+        <MappingFragment StoreEntitySet="Relations_">
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="SynSet" ColumnName="SynSet" />
+          <ScalarProperty Name="RelationName" ColumnName="RelationName" />
+          <ScalarProperty Name="Range_Id" ColumnName="Range_Id" />
+          <ScalarProperty Name="Domain_Id" ColumnName="Domain_Id" />
+          <ScalarProperty Name="Relation_Id" ColumnName="Relation_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="MyModel.Relations_">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConceptsModel.Store.spRelations_Insert">
+            <ScalarProperty Name="Comment" ParameterName="Comment" />
+            <ScalarProperty Name="SynSet" ParameterName="SynSet" />
+            <ScalarProperty Name="RelationName" ParameterName="RelationName" />
+            <ScalarProperty Name="Range_Id" ParameterName="Range_Id" />
+            <ScalarProperty Name="Domain_Id" ParameterName="Domain_Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConceptsModel.Store.spRelations_Update">
+            <ScalarProperty Name="Comment" ParameterName="Comment" Version="Current" />
+            <ScalarProperty Name="SynSet" ParameterName="SynSet" Version="Current" />
+            <ScalarProperty Name="RelationName" ParameterName="RelationName" Version="Current" />
+            <ScalarProperty Name="Range_Id" ParameterName="Range_Id" Version="Current" />
+            <ScalarProperty Name="Domain_Id" ParameterName="Domain_Id" Version="Current" />
+            <ScalarProperty Name="Relation_Id" ParameterName="Relation_Id" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="ConceptsModel.Store.spRelations_Delete">
+            <ScalarProperty Name="Relation_Id" ParameterName="Relation_Id" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spAttributs_Delete" FunctionName="ConceptsModel.Store.spAttributs_Delete" />
+    <FunctionImportMapping FunctionImportName="spAttributs_Insert" FunctionName="ConceptsModel.Store.spAttributs_Insert" />
+    <FunctionImportMapping FunctionImportName="spAttributs_Update" FunctionName="ConceptsModel.Store.spAttributs_Update" />
+    <FunctionImportMapping FunctionImportName="spRelations_Delete" FunctionName="ConceptsModel.Store.spRelations_Delete" />
+    <FunctionImportMapping FunctionImportName="spRelations_Insert" FunctionName="ConceptsModel.Store.spRelations_Insert" />
+    <FunctionImportMapping FunctionImportName="spRelations_Update" FunctionName="ConceptsModel.Store.spRelations_Update" />
+    <FunctionImportMapping FunctionImportName="spVocabularys_Delete" FunctionName="ConceptsModel.Store.spVocabularys_Delete" />
+    <FunctionImportMapping FunctionImportName="spVocabularys_Insert" FunctionName="ConceptsModel.Store.spVocabularys_Insert" />
+    <FunctionImportMapping FunctionImportName="spVocabularys_Update" FunctionName="ConceptsModel.Store.spVocabularys_Update" />
+  </EntityContainerMapping>
+</Mapping>

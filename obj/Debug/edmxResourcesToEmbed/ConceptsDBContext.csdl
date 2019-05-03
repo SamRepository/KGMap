@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Concepts_">
+    <Key>
+      <PropertyRef Name="Concept_Id" />
+    </Key>
+    <Property Name="Concept_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Vocabulary_Id" Type="Int32" Nullable="false" />
+    <Property Name="Concept_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SynSet" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubConceptOf_Id" Type="Int32" />
+    <NavigationProperty Name="Vocabulary" Relationship="Self.FK_VocabularysConcepts_" FromRole="Concepts_" ToRole="Vocabularys" />
+    <NavigationProperty Name="Attributes_" Relationship="MyModel.FK_Concepts_Attributes_" FromRole="Concepts_" ToRole="Attributes_" />
+    <NavigationProperty Name="Relations_" Relationship="MyModel.FK_Concepts_Relations_" FromRole="Concepts_" ToRole="Relations_" />
+    <NavigationProperty Name="Relations_1" Relationship="MyModel.FK_Relations__Relations_1" FromRole="Concepts_" ToRole="Relations_" />
+  </EntityType>
+  <EntityType Name="Vocabulary">
+    <Key>
+      <PropertyRef Name="Vocabulary_Id" />
+    </Key>
+    <Property Name="Vocabulary_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Vocabulary_URI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Vocabulary_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Home_Page" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Creator" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RDF_link" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Concepts_" Relationship="Self.FK_VocabularysConcepts_" FromRole="Vocabularys" ToRole="Concepts_" />
+  </EntityType>
+  <Association Name="FK_VocabularysConcepts_">
+    <End Role="Vocabularys" Type="Self.Vocabulary" Multiplicity="1" />
+    <End Role="Concepts_" Type="Self.Concepts_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vocabularys">
+        <PropertyRef Name="Vocabulary_Id" />
+      </Principal>
+      <Dependent Role="Concepts_">
+        <PropertyRef Name="Vocabulary_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Mapping_SchemaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Concepts_" EntityType="Self.Concepts_" />
+    <EntitySet Name="Vocabularys" EntityType="Self.Vocabulary" />
+    <AssociationSet Name="FK_VocabularysConcepts_" Association="Self.FK_VocabularysConcepts_">
+      <End Role="Vocabularys" EntitySet="Vocabularys" />
+      <End Role="Concepts_" EntitySet="Concepts_" />
+    </AssociationSet>
+    <FunctionImport Name="spConcepts_Delete">
+      <Parameter Name="Concept_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spConcepts_Insert">
+      <Parameter Name="Vocabulary_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Concept_Name" Mode="In" Type="String" />
+      <Parameter Name="SynSet" Mode="In" Type="String" />
+      <Parameter Name="Comment" Mode="In" Type="String" />
+      <Parameter Name="SubConceptOf_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spConcepts_Update">
+      <Parameter Name="Concept_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Vocabulary_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Concept_Name" Mode="In" Type="String" />
+      <Parameter Name="SynSet" Mode="In" Type="String" />
+      <Parameter Name="Comment" Mode="In" Type="String" />
+      <Parameter Name="SubConceptOf_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="Attributes_" EntityType="MyModel.Attributes_" />
+    <EntitySet Name="Relations_" EntityType="MyModel.Relations_" />
+    <AssociationSet Name="FK_Concepts_Attributes_" Association="MyModel.FK_Concepts_Attributes_">
+      <End Role="Concepts_" EntitySet="Concepts_" />
+      <End Role="Attributes_" EntitySet="Attributes_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Concepts_Relations_" Association="MyModel.FK_Concepts_Relations_">
+      <End Role="Concepts_" EntitySet="Concepts_" />
+      <End Role="Relations_" EntitySet="Relations_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Relations__Relations_1" Association="MyModel.FK_Relations__Relations_1">
+      <End Role="Concepts_" EntitySet="Concepts_" />
+      <End Role="Relations_" EntitySet="Relations_" />
+    </AssociationSet>
+    <FunctionImport Name="spAttributs_Delete">
+      <Parameter Name="Attribut_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spAttributs_Insert">
+      <Parameter Name="Domain_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Range" Mode="In" Type="String" />
+      <Parameter Name="Attribute_Name" Mode="In" Type="String" />
+      <Parameter Name="SynSet" Mode="In" Type="String" />
+      <Parameter Name="Comment" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spAttributs_Update">
+      <Parameter Name="Attribut_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Domain_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Range" Mode="In" Type="String" />
+      <Parameter Name="Attribute_Name" Mode="In" Type="String" />
+      <Parameter Name="SynSet" Mode="In" Type="String" />
+      <Parameter Name="Comment" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spRelations_Delete">
+      <Parameter Name="Relation_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spRelations_Insert">
+      <Parameter Name="Domain_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Range_Id" Mode="In" Type="Int32" />
+      <Parameter Name="RelationName" Mode="In" Type="String" />
+      <Parameter Name="SynSet" Mode="In" Type="String" />
+      <Parameter Name="Comment" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spRelations_Update">
+      <Parameter Name="Relation_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Domain_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Range_Id" Mode="In" Type="Int32" />
+      <Parameter Name="RelationName" Mode="In" Type="String" />
+      <Parameter Name="SynSet" Mode="In" Type="String" />
+      <Parameter Name="Comment" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spVocabularys_Delete">
+      <Parameter Name="Vocabulary_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spVocabularys_Insert">
+      <Parameter Name="Vocabulary_URI" Mode="In" Type="String" />
+      <Parameter Name="Vocabulary_Name" Mode="In" Type="String" />
+      <Parameter Name="Home_Page" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="Creator" Mode="In" Type="String" />
+      <Parameter Name="RDF_Link" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spVocabularys_Update">
+      <Parameter Name="Vocabulary_Id" Mode="In" Type="Int32" />
+      <Parameter Name="Vocabulary_URI" Mode="In" Type="String" />
+      <Parameter Name="Vocabulary_Name" Mode="In" Type="String" />
+      <Parameter Name="Home_Page" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="Creator" Mode="In" Type="String" />
+      <Parameter Name="RDF_Link" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Attributes_">
+    <Key>
+      <PropertyRef Name="Attribut_Id" />
+    </Key>
+    <Property Name="Attribut_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Domain_Id" Type="Int32" Nullable="false" />
+    <Property Name="Range" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Attribute_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SynSet" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Concepts_" Relationship="MyModel.FK_Concepts_Attributes_" FromRole="Attributes_" ToRole="Concepts_" />
+  </EntityType>
+  <EntityType Name="Relations_">
+    <Key>
+      <PropertyRef Name="Relation_Id" />
+    </Key>
+    <Property Name="Relation_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Domain_Id" Type="Int32" Nullable="false" />
+    <Property Name="Range_Id" Type="Int32" Nullable="false" />
+    <Property Name="RelationName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SynSet" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Concepts_" Relationship="MyModel.FK_Concepts_Relations_" FromRole="Relations_" ToRole="Concepts_" />
+    <NavigationProperty Name="Concepts_1" Relationship="MyModel.FK_Relations__Relations_1" FromRole="Relations_" ToRole="Concepts_" />
+  </EntityType>
+  <Association Name="FK_Concepts_Attributes_">
+    <End Type="MyModel.Concepts_" Role="Concepts_" Multiplicity="1" />
+    <End Type="MyModel.Attributes_" Role="Attributes_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Concepts_">
+        <PropertyRef Name="Concept_Id" />
+      </Principal>
+      <Dependent Role="Attributes_">
+        <PropertyRef Name="Domain_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Concepts_Relations_">
+    <End Type="MyModel.Concepts_" Role="Concepts_" Multiplicity="1" />
+    <End Type="MyModel.Relations_" Role="Relations_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Concepts_">
+        <PropertyRef Name="Concept_Id" />
+      </Principal>
+      <Dependent Role="Relations_">
+        <PropertyRef Name="Domain_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Relations__Relations_1">
+    <End Type="MyModel.Concepts_" Role="Concepts_" Multiplicity="1" />
+    <End Type="MyModel.Relations_" Role="Relations_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Concepts_">
+        <PropertyRef Name="Concept_Id" />
+      </Principal>
+      <Dependent Role="Relations_">
+        <PropertyRef Name="Range_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

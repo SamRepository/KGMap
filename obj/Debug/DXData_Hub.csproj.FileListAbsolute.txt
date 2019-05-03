@@ -1,0 +1,329 @@
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DXData_Hub.exe.config
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DXData_Hub.exe
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DXData_Hub.pdb
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.CodeParser.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Data.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.DataAccess.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.ExpressApp.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.ExpressApp.Win.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Persistent.Base.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Xpo.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraReports.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraGauges.v16.2.Core.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.PivotGrid.v16.2.Core.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Data.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.DataAccess.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.ExpressApp.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.ExpressApp.Win.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Persistent.Base.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Xpo.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraReports.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraGauges.v16.2.Core.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.PivotGrid.v16.2.Core.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.DataAccess.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.DataAccess.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.DataAccess.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.DataAccess.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.ExpressApp.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.ExpressApp.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.ExpressApp.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.ExpressApp.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.ExpressApp.Win.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.ExpressApp.Win.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.ExpressApp.Win.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.ExpressApp.Win.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Xpo.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Xpo.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Xpo.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Xpo.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraReports.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraReports.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraReports.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraReports.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.ConceptsFrom.resources
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.MainForm.resources
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.Properties.Resources.resources
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.exe.licenses
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.exe
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.pdb
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DXData_Hub.exe.config
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DXData_Hub.exe
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DXData_Hub.pdb
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.CodeParser.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Data.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.DataAccess.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.ExpressApp.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.ExpressApp.Win.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Persistent.Base.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Utils.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Xpo.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraBars.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraReports.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Office.v16.2.Core.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraGauges.v16.2.Core.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.PivotGrid.v16.2.Core.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Data.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.DataAccess.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.ExpressApp.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.ExpressApp.Win.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Persistent.Base.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Utils.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Xpo.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraBars.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraReports.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Office.v16.2.Core.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraGauges.v16.2.Core.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.PivotGrid.v16.2.Core.xml
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.ExpressApp.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.ExpressApp.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.ExpressApp.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.ExpressApp.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.ExpressApp.Win.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.ExpressApp.Win.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.ExpressApp.Win.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.ExpressApp.Win.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\de\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\es\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ja\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\bin\Debug\ru\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.csprojResolveAssemblyReference.cache
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.ConceptsFrom.resources
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.MainForm.resources
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.Properties.Resources.resources
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.csproj.GenerateResource.Cache
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.exe.licenses
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.exe
+C:\Users\Samor\Desktop\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.pdb
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.SourcesFrom.resources
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\com.rusanu.dataconnectiondialog.DataConnectionDialog.resources
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\Facebook.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\Facebook.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\obj\Debug\DXData_Hub.FacebookLoginDialog.resources
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.TreeMap.v16.2.Core.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraTreeMap.v16.2.dll
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.TreeMap.v16.2.Core.xml
+D:\Documents\Visual Studio 2017\Projects\DXData_Hub\DXData_Hub\bin\Debug\DevExpress.XtraTreeMap.v16.2.xml

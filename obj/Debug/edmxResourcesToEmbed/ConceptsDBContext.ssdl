@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ConceptsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Attributes_">
+    <Key>
+      <PropertyRef Name="Attribut_Id" />
+    </Key>
+    <Property Name="Attribut_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Domain_Id" Type="int" Nullable="false" />
+    <Property Name="Range" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Attribute_Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SynSet" Type="nvarchar(max)" />
+    <Property Name="Comment" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Concepts_">
+    <Key>
+      <PropertyRef Name="Concept_Id" />
+    </Key>
+    <Property Name="Concept_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Vocabulary_Id" Type="int" Nullable="false" />
+    <Property Name="Concept_Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SynSet" Type="nvarchar(max)" />
+    <Property Name="Comment" Type="nvarchar(max)" />
+    <Property Name="SubConceptOf_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="Relations_">
+    <Key>
+      <PropertyRef Name="Relation_Id" />
+    </Key>
+    <Property Name="Relation_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Domain_Id" Type="int" Nullable="false" />
+    <Property Name="Range_Id" Type="int" Nullable="false" />
+    <Property Name="RelationName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SynSet" Type="nvarchar(max)" />
+    <Property Name="Comment" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Vocabularys">
+    <Key>
+      <PropertyRef Name="Vocabulary_Id" />
+    </Key>
+    <Property Name="Vocabulary_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Vocabulary_URI" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Vocabulary_Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Home_Page" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Creator" Type="nvarchar(max)" />
+    <Property Name="RDF_link" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Concepts_Attributes_">
+    <End Role="Concepts_" Type="Self.Concepts_" Multiplicity="1" />
+    <End Role="Attributes_" Type="Self.Attributes_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Concepts_">
+        <PropertyRef Name="Concept_Id" />
+      </Principal>
+      <Dependent Role="Attributes_">
+        <PropertyRef Name="Domain_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Concepts_Relations_">
+    <End Role="Concepts_" Type="Self.Concepts_" Multiplicity="1" />
+    <End Role="Relations_" Type="Self.Relations_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Concepts_">
+        <PropertyRef Name="Concept_Id" />
+      </Principal>
+      <Dependent Role="Relations_">
+        <PropertyRef Name="Domain_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Relations__Relations_1">
+    <End Role="Concepts_" Type="Self.Concepts_" Multiplicity="1" />
+    <End Role="Relations_" Type="Self.Relations_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Concepts_">
+        <PropertyRef Name="Concept_Id" />
+      </Principal>
+      <Dependent Role="Relations_">
+        <PropertyRef Name="Range_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VocabularysConcepts_">
+    <End Role="Vocabularys" Type="Self.Vocabularys" Multiplicity="1" />
+    <End Role="Concepts_" Type="Self.Concepts_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vocabularys">
+        <PropertyRef Name="Vocabulary_Id" />
+      </Principal>
+      <Dependent Role="Concepts_">
+        <PropertyRef Name="Vocabulary_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="spAttributs_Delete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Attribut_Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spAttributs_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Domain_Id" Type="int" Mode="In" />
+    <Parameter Name="Range" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Attribute_Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SynSet" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Comment" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spAttributs_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Attribut_Id" Type="int" Mode="In" />
+    <Parameter Name="Domain_Id" Type="int" Mode="In" />
+    <Parameter Name="Range" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Attribute_Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SynSet" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Comment" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spConcepts_Delete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Concept_Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spConcepts_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Vocabulary_Id" Type="int" Mode="In" />
+    <Parameter Name="Concept_Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SynSet" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Comment" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SubConceptOf_Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spConcepts_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Concept_Id" Type="int" Mode="In" />
+    <Parameter Name="Vocabulary_Id" Type="int" Mode="In" />
+    <Parameter Name="Concept_Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SynSet" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Comment" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SubConceptOf_Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spRelations_Delete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Relation_Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spRelations_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Domain_Id" Type="int" Mode="In" />
+    <Parameter Name="Range_Id" Type="int" Mode="In" />
+    <Parameter Name="RelationName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SynSet" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Comment" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spRelations_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Relation_Id" Type="int" Mode="In" />
+    <Parameter Name="Domain_Id" Type="int" Mode="In" />
+    <Parameter Name="Range_Id" Type="int" Mode="In" />
+    <Parameter Name="RelationName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SynSet" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Comment" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spVocabularys_Delete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Vocabulary_Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spVocabularys_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Vocabulary_URI" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Vocabulary_Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Home_Page" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Creator" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="RDF_Link" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spVocabularys_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Vocabulary_Id" Type="int" Mode="In" />
+    <Parameter Name="Vocabulary_URI" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Vocabulary_Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Home_Page" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Description" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Creator" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="RDF_Link" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <EntityContainer Name="ConceptsModelStoreContainer">
+    <EntitySet Name="Attributes_" EntityType="Self.Attributes_" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Concepts_" EntityType="Self.Concepts_" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Relations_" EntityType="Self.Relations_" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vocabularys" EntityType="Self.Vocabularys" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Concepts_Attributes_" Association="Self.FK_Concepts_Attributes_">
+      <End Role="Concepts_" EntitySet="Concepts_" />
+      <End Role="Attributes_" EntitySet="Attributes_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Concepts_Relations_" Association="Self.FK_Concepts_Relations_">
+      <End Role="Concepts_" EntitySet="Concepts_" />
+      <End Role="Relations_" EntitySet="Relations_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Relations__Relations_1" Association="Self.FK_Relations__Relations_1">
+      <End Role="Concepts_" EntitySet="Concepts_" />
+      <End Role="Relations_" EntitySet="Relations_" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VocabularysConcepts_" Association="Self.FK_VocabularysConcepts_">
+      <End Role="Vocabularys" EntitySet="Vocabularys" />
+      <End Role="Concepts_" EntitySet="Concepts_" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
