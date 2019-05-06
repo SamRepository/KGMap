@@ -1,6 +1,6 @@
 # KGMap
 
-Knowledge Graph Mapping is Middelware for leveraging knowledge graphs by bridge between heterogeneous relational, social and linked data. It consists of three sub-models: the knowledge graph representation model, the sources metadata de-scription model, and the mapping model. 
+**Knowledge Graph Mapping** is Middelware for leveraging knowledge graphs by bridge between heterogeneous relational, social and linked data. It consists of three sub-models: the _knowledge graph representation model_, the _sources metadata description model_, and the _mapping model_. 
 
 KGMap maintains these models and defines different mapping cases. The main goal is to assist an expert identifying mapping candidates relying on an algorithm which calculate a similarity measure to determine relatedness between the sources metadata elements and knowledge graph schema elements. 
 
